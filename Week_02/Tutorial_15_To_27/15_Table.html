@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <meta name="description" content="This is our Book Store" />
+  </head>
+  <body>
+    <h1>Book Store</h1>
+    <p>This is My <b>Book Store</b>, Welcome</p>
+    <!--
+      thead
+      tbody
+      tfoot
+      tr => Table Row
+      td => Table Data Cell
+      th => Table Header Cell
+    -->
+    <!--
+      Note: Don't Use border or cellpadding as an attribute in Start Tag
+      coz their are deprecated
+    -->
+    <table border="1" cellpadding="10px">
+    <!-- border as attribute in table is deprecated -->
+    <!-- <table> -->
+      <!--Caption Of Table - More Details Of A Table-->
+      <caption>
+        Students Marks
+      </caption>
+      <!--Table Head-->
+      <thead>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <!--Table Body-->
+      <tbody>
+        <tr>
+          <td>Mustafa</td>
+          <td>Ramadan</td>
+          <td>40</td>
+        </tr>
+      </tbody>
+      <tr>
+        <td>Ahmed</td>
+        <td>Ali</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>Osama</td>
+        <td>Ramadan</td>
+        <td>40</td>
+      </tr>
+      <!--Table Foot-->
+      <tfoot>
+        <tr>
+          <td colspan="3" style="text-align: center">160</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
